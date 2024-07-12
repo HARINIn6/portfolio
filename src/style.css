@@ -155,7 +155,7 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
+  height: 2.5em !important;
   width: 2.5em !important;
 }
 
@@ -742,4 +742,30 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+@font-face {
+  font-family: "subjectivity";
+  src: url("../Images/Subjectivity-BlackSlanted.otf");
+}
+
+.font-change{
+  font-family: "subjectivity";
+  font-size:120% !important;
+}
+
+.logo-image-1{
+  width:50% !important;
+}
+
+.logo-cont{
+  display:inline-flex;
+  gap: 0;
+}
+
+@media (max-width:435px) {
+  .home-pic{
+    height: 250px !important;
+    width: 380px !important;
+  }
 }
