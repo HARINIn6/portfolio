@@ -744,15 +744,6 @@ button:focus {
   display: none !important;
 }
 
-@font-face {
-  font-family: "subjectivity";
-  src: url("../Images/Subjectivity-BlackSlanted.otf");
-}
-
-.font-change{
-  font-family: "subjectivity";
-  font-size:120% !important;
-}
 
 .logo-image-1{
   width:50% !important;
